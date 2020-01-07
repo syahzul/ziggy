@@ -30,7 +30,7 @@
         }
     },
     "require-dev": {
-        "orchestra/testbench": "~3.6",
+        "orchestra/testbench": "~4.0",
         "mikey179/vfsstream": "^1.6"
     },
     "extra": {
@@ -39,5 +39,7 @@
                 "Tightenco\\Ziggy\\ZiggyServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
